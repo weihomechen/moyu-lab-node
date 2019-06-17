@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "tslint-config-egg"
+  ],
+  "defaultSeverity": "error",
+  "rules": {
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "no-var-requires": false,
+    "array-bracket-spacing": false,
+    "no-unused-variable": false
+  }
+}
